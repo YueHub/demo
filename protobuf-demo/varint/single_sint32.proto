@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Example1 {
+    sint32 sint32Val = 1;
+}
+
+message Example2 {
+    repeated sint32 sint32Val = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+// message 定义
+message Example1 {
+    string stringVal = 1;
+    bytes bytesVal = 2;
+    message EmbeddedMessage {
+        int32 int32Val = 1;
+        string stringVal = 2;
+    }
+    EmbeddedMessage embeddedExample1 = 3;
+    repeated int32 repeatedInt32Val = 4;
+    repeated string repeatedStringVal = 5;
+}

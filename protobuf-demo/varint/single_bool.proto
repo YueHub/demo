@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Example1 {
+    bool boolVal = 1;
+}

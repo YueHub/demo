@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Example1 {
+    int32 int32Val = 666;
+}
+
+message Example2 {
+    repeated int32 int32Val = 536870911;
+}

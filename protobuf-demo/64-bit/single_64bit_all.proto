@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+// message 定义
+message Example1 {
+    fixed64 fixed64Val = 1;
+    sfixed64 sfixed64Val = 2;
+    double doubleVal = 3;
+}
