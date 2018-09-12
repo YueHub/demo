@@ -1,0 +1,6 @@
+.idea
+
+# Executables
+*.exe
+*.out
+*.app
