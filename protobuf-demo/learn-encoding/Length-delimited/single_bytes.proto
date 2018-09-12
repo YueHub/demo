@@ -1,0 +1,5 @@
+syntax = "proto2";
+
+message BytesExample1 {
+  repeated bytes repeatedBytesVal = 1;
+}
