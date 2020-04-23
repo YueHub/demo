@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+scrapy = "*"
+pymongo = "*"
+sshtunnel = "*"
+scrapy-random-useragent = "*"
+scrapy-proxies = "*"
+scrapy-splash = "*"
+selenium = "*"
+pylint = "*"
+yapf = "*"
+demjson = "*"
+deprecated = "*"
+
+[requires]
+python_version = "3.6"

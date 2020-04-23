@@ -1,0 +1,27 @@
+
+# for DS_Store
+.DS_Store
+
+# for vscode
+.vscode
+
+# for idea
+.idea
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+**__pycache__
+
+
+# for dev
+docs/TEMP.md
+scrapy-dev*.log
+dev_logs
+
