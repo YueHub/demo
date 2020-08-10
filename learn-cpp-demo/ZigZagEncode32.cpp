@@ -20,5 +20,6 @@ int main() {
     cin >> n;
     cout << "result: " << ZigZagEncode32(n) << endl;
   }
+  
   return 0;
 }
