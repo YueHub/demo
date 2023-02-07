@@ -4,7 +4,7 @@ automat==20.2.0
 bcrypt==3.1.7
 cffi==1.14.0
 constantly==15.1.0
-cryptography==2.9
+cryptography==39.0.0
 cssselect==1.1.0
 demjson==2.2.4
 deprecated==1.2.9
